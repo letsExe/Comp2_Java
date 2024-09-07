@@ -1,0 +1,11 @@
+O codigo esta conectado no meu banco de dados, então é preciso trocar a senha, o nome do banco e o usuario se necessario. 
+É preciso fazer a tabela no MySQL.
+
+Create Table codigo
+
+CREATE TABLE IF NOT EXISTS `mydb`.`Disciplina` (
+  `idDisciplina` INT(11) NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(45) NOT NULL,
+  `sigla` VARCHAR(45) NOT NULL,
+  `carga_horaria` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`idDisciplina`))
